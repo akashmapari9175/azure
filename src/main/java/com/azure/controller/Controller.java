@@ -14,6 +14,6 @@ public class Controller {
 	}
 	@PostMapping("/send")
 	public String send(@RequestParam String name) {
-		return "hello"+name+"thank you ";
+		return "hello "+name+" thank you ";
 	}
 }
