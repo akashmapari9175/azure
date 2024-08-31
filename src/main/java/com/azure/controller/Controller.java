@@ -16,4 +16,10 @@ public class Controller {
 	public String send(@RequestParam String name) {
 		return "hello "+name+" thank you ";
 	}
+	
+	@GetMapping("/work")
+	public String work() {
+		return "today work complate akash thank yyou so much you lean deployment";
+	}
+	
 }
